@@ -25,15 +25,19 @@
     --surface-color-active: rgba(0, 0, 0, 0.02);
 }
 
-
-body {
-    height: 100vh;
-    background: var(--background) no-repeat top center/cover;
+html {
+    height: 100%;
 }
 
 body * {
     font-family: 'Rubik', sans-serif;
     color: var(--text-color);
+}
+
+body {
+    background: var(--background) no-repeat top center/cover;
+    width: 100%;
+    max-width: 100vw;
 }
 
 a {
